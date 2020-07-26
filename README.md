@@ -16,5 +16,5 @@ Modbus uses the RS485 or Ethernet as its wiring type.
 Modbus supports communication to and from multiple devices connected to the **same cable or Ethernet network**.
 
 ## References
-> [1] https://en.wikipedia.org/wiki/Modbus
+> [1] https://en.wikipedia.org/wiki/Modbus \
 > [2] 
