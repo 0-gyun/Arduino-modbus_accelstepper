@@ -1,4 +1,4 @@
-# modbus-_accelstepper
+# modbus_accelstepper
 
 ## modbus
 ### What is modbus [1]
