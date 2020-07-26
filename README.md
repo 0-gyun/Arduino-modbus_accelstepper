@@ -35,7 +35,18 @@ But boards using other cores like ARM (DUE or STM32..) have to modify.
     // 1. Max Speed
     // 2. Acceleration
 The begin() function sets the device ID and baudrate and configuration. In this code, I set the ID as 1 and baudrate as 115200bps. \
-The configure...function allocate the number of addresses. Coil is the 1 bit information so it can use like switch. 
+The configure...function allocate the number of addresses.\
+Coil is the 1 bit information so it can use like switch.
+Register is the 2byte (16bit) information so it can allocate date from 0 to 65535.
+By using multiple registers, you can handle more than 2 byte data.
+Holding Register and Coil can read and write. Input register desctret input can read only.
+
+
+
+
+
+
+
 ## References
 > [1] https://en.wikipedia.org/wiki/Modbus \
 > [2] https://www.arduino.cc/en/ArduinoModbus/ArduinoModbus
